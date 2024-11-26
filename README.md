@@ -1,14 +1,15 @@
 ### Project Title: Role-Based Access Control (RBAC) UI
-
+<br>
 #### Project Overview:
+<br>
 This project is a web-based Role-Based Access Control (RBAC) dashboard designed to allow administrators to manage users, roles, and permissions efficiently. It provides a user-friendly interface to perform CRUD operations on users and roles, assign roles to users, and define permissions for roles dynamically.
-
+<br>
 The application is responsive, ensuring usability across devices, and follows best practices for secure and maintainable code.
-
+<br>
 ---
-
+<br>
 #### Flow of the Project:
-
+<br>
 src/
 |- component/
 |  |-Modal.js
@@ -34,35 +35,47 @@ src/
 |  |-helpers.js
 |-App.js
 |-index.js
-
+<br>
 PermissionMatrix.js- it manages the permisson
-
+<br>
 RoleTable.js - it manages the roles
-
+<br>
 UserTable.js - it handles the users
-
+<br>
 mockData.js - it stores the mock data
-
+<br>
 
 #### Getting Started:
+<br>
 1. Prerequisites
+<br>
 Ensure you have the following installed on your system:
-
+<br>
    - Node.js (v14 or higher)
+   <br>
    - npm (Node Package Manager)
-
+<br>
 2. Setup Instructions
+<br>
    - Clone the repository:
-         git clone
+   <br>
+         git clone https://github.com/MahwishRizwan/RDBC-Dashboard.git
+         <br>
          cd rbac-ui
+         <br>
    - Install dependencies:
+   <br>
          npm install
+         <br>
 
    - Start the development server:
+     <br>
          npm start
-
+<br>
    - Open the application in your browser:
+     <br>
          http://localhost:3000
+     <br>
 
 #### Technology Stack:
 1. Frontend: 
